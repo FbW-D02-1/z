@@ -1,0 +1,88 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  /* border: 2px solid black; */
+}
+
+:root{
+  --defaultBgColor: black;
+  --defaultBorder: red;
+  --cursor: crosshair;
+  --mainwidth: 100vw;
+  --mainheight: 100vh;
+  --cursor: default;
+}
+
+body{
+  width: var(--mainwidth);
+  height: var(--mainheight);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  }
+
+.enter{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+  .opening{
+    width: 40vw;
+    height: 40vh;
+    font-size: 4rem;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  p{
+    font-size: 1.5rem;
+  }
+
+  button{
+    width: 25vw;
+    height: 10vh;
+    background-color: red;
+    border: none;
+    border-radius: 50px;
+    font-size: 2rem;
+    font-weight: bolder;
+    cursor: pointer;
+  }
+
+
+img{
+  width: 100%;
+  height: 100%;
+  cursor: var(--cursor);
+}
+
+/* div:hover{
+  background-image: url(/images/kreuz.jpg);
+  background-size: cover;
+  background-position: center;
+  visibility: hidden;
+} */
+
+/* .zombie2,
+.zombie3,
+.zombie4,
+.zombie5,
+.zombie6,
+.zombie7,
+.zombie8,
+.zombie9,
+.zombie10,
+.zombie11,
+.zombie12,
+.zombie13,
+.zombie14,
+.zombie15,
+.zombie16,
+.zombie17,
+.zombie18
+{
+  visibility: hidden;
+} */
+

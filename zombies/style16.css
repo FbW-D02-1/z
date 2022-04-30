@@ -1,0 +1,63 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root{
+  --defaultBgColor: black;
+  --defaultBorder: red;
+  --cursor: crosshair;
+}
+
+body{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  cursor: var(--cursor);
+}
+
+div{
+  width: 250px;
+  height: 250px;
+  background-color: var(--defaultBgColor);
+  margin: 2em;
+  /* background-image: url(/images/Sumpf-Zombie.webp); */
+  background-size: cover;
+}
+
+img{
+  width: 100%;
+  height: 100%;
+}
+
+/* div:hover{
+  background-image: url(/images/kreuz.jpg);
+  background-size: cover;
+  background-position: center;
+  visibility: hidden;
+} */
+
+.zombie1,
+.zombie2,
+.zombie3,
+.zombie4,
+.zombie5,
+.zombie6,
+.zombie7,
+.zombie8,
+.zombie9,
+.zombie10,
+.zombie11,
+.zombie12,
+.zombie13,
+.zombie14,
+.zombie15,
+.zombie17,
+.zombie18
+{
+  visibility: hidden;
+}
+
